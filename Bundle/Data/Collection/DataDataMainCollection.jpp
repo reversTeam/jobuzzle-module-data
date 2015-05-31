@@ -9,7 +9,7 @@ class DataDataMainCollection extends ElementDataMainCollection {
 		if (this._protected == undefined) {
 			var protected = _super();
 			this._protected = protected.concat(
-				Config.modules.Data.collections.upload.protected
+				Config.modules.Data.collections.update.protected
 			);
 		}
 		return this._protected;
