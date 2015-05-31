@@ -2,6 +2,8 @@
 
 class DataDataMainEntity extends ElementDataMainEntity {
 
+	_type = 'Data';
+
 	#default get, set for _url;
 
 	initialize : function () {
