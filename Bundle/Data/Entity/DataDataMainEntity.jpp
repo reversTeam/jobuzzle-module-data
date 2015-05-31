@@ -1,0 +1,22 @@
+#import (Config.path +'/Modules/Element/Bundle/Data/Entity/ElementDataMainEntity') = ElementDataMainEntity;
+
+class DataDataMainEntity extends ElementDataMainEntity {
+
+	#default get, set for _url;
+
+	initialize : function () {
+		_super();
+
+		this._url = undefined;
+	}
+
+	hydrate : function (datas) {
+		_super(datas);
+
+		if (datas.url)
+			this.setUrl(datas.url);
+	}
+
+}
+
+#export DataDataMainEntity;
