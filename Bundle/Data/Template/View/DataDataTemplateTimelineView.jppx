@@ -1,0 +1,14 @@
+#import (Config.path +'/Modules/Element/Bundle/Template/View/ElementDataTemplateTimelineView') = ElementDataTemplateTimelineView;
+
+class DataDataTemplateTimelineView extends ElementDataTemplateTimelineView {
+
+	render : function () {
+		var entity = this.state.entity;
+		return (
+			<div>{entity.getId() +' : '+ entity.getType() +' | Url -> '+ entity.getUrl()}</div>
+		);
+	}
+
+}
+
+#export DataDataTemplateTimelineView;
