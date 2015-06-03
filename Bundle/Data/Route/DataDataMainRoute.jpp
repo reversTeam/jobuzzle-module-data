@@ -1,0 +1,16 @@
+#import (Config.path +'/Modules/Element/Bundle/Data/Route/ElementDataMainRoute') = ElementDataMainRoute;
+
+class DataDataMainRoute extends ElementDataMainRoute {
+
+	name = 'data';
+
+	baseName = 'Data';
+	baseRoute = '{datas}';
+	baseController = 'data_data_main_controller';
+
+	paramName = 'data_url';
+	paramRegex = '[a-z0-9-]+';
+
+}
+
+#export DataDataMainRoute;
