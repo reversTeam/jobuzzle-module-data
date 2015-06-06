@@ -4,6 +4,7 @@ class DataDataMainEntity extends ElementDataMainEntity {
 
 	_type = 'Data';
 	_templateTimeline = 'data_data_timeline_template';
+	_templateMiniature = 'data_data_miniature_template';
 
 	#default get, set for _url;
 

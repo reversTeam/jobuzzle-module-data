@@ -1,0 +1,14 @@
+#import (Config.path +'/Modules/Element/Bundle/Template/View/ElementDataTemplateMiniatureView') = ElementDataTemplateMiniatureView;
+
+class DataDataTemplateMiniatureView extends ElementDataTemplateMiniatureView {
+
+	render : function () {
+		var entity = this.state.entity;
+		return (
+			<div>{entity.getId() +' : '+ entity.getType() +' | Url -> '+ entity.getUrl()}</div>
+		);
+	}
+
+}
+
+#export DataDataTemplateMiniatureView;
