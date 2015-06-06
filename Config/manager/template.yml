@@ -1,4 +1,3 @@
 invokables:
 	data_data_timeline_template : Data/Template/DataDataTimelineTemplate
-shared:
-	data_data_timeline_template : false
+	data_data_miniature_template : Data/Template/DataDataMiniatureTemplate

@@ -1,0 +1,15 @@
+#import (Config.path +'/Modules/Element/Bundle/Data/Template/ElementDataTimelineTemplate') = ElementDataMiniatureTemplate;
+
+class DataDataMiniatureTemplate extends ElementDataMiniatureTemplate {
+
+	_viewClassName = 'DataDataTemplateMiniatureView';
+
+	onListen : function () {
+		var dispatcher = _super();
+
+		return dispatcher;
+	}
+
+}
+
+#export DataDataMiniatureTemplate;
