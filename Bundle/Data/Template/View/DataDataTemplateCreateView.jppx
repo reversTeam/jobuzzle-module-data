@@ -1,0 +1,10 @@
+class DataDataTemplateCreateView extends ElementDataTemplateCreateView {
+
+	_class = 'data';
+	_elementType = 'Data';
+
+	display : function () {
+		return <div>Create Data</div>;
+	}
+
+}

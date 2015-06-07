@@ -1,0 +1,6 @@
+class DataDataTemplateSearchView extends ElementDataTemplateSearchView {
+
+	_class = 'data';
+	_elementType = 'Data';
+
+}

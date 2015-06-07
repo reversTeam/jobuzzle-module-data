@@ -1,0 +1,10 @@
+class DataDataTemplateViewView extends ElementDataTemplateViewView {
+
+	_class = 'data';
+	_elementType = 'Data';
+
+	display : function () {
+		return <div>View Data</div>;
+	}
+
+}
