@@ -1,0 +1,7 @@
+class DataDataUpdateTemplate extends ElementDataUpdateTemplate {
+
+	_viewClassName = 'DataDataTemplateUpdateView';
+	_type = 'Data';
+	_route = 'data';
+
+}

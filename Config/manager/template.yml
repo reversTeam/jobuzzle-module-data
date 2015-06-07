@@ -1,3 +1,16 @@
 invokables:
 	data_data_timeline_template : Data/Template/DataDataTimelineTemplate
 	data_data_miniature_template : Data/Template/DataDataMiniatureTemplate
+
+	data_data_search_template	: Data/Template/DataDataSearchTemplate
+	data_data_create_template	: Data/Template/DataDataCreateTemplate
+	data_data_view_template		: Data/Template/DataDataViewTemplate
+	data_data_update_template	: Data/Template/DataDataUpdateTemplate
+	data_data_delete_template	: Data/Template/DataDataDeleteTemplate
+
+shared :
+	data_data_search_template	: true
+	data_data_create_template	: true
+	data_data_view_template		: true
+	data_data_update_template	: true
+	data_data_delete_template	: true

@@ -1,0 +1,7 @@
+class DataDataDeleteTemplate extends ElementDataDeleteTemplate {
+
+	_viewClassName = 'DataDataTemplateDeleteView';
+	_type = 'Data';
+	_route = 'data';
+
+}

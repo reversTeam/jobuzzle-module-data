@@ -1,0 +1,7 @@
+class DataDataViewTemplate extends ElementDataViewTemplate {
+
+	_viewClassName = 'DataDataTemplateViewView';
+	_type = 'Data';
+	_route = 'data';
+
+}

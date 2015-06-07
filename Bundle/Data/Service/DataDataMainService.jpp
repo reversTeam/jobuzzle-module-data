@@ -1,0 +1,6 @@
+class DataDataMainService extends ElementDataMainService {
+
+	_type = 'data';
+	_title = 'Datas';
+
+}

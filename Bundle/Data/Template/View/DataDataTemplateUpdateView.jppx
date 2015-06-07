@@ -1,0 +1,10 @@
+class DataDataTemplateUpdateView extends ElementDataTemplateUpdateView {
+
+	_class = 'data';
+	_elementType = 'Data';
+
+	display : function () {
+		return <div>Update Data</div>;
+	}
+
+}

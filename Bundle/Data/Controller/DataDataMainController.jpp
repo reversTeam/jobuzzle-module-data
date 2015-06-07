@@ -1,0 +1,5 @@
+class DataDataMainController extends ElementDataMainController {
+
+	_serviceName = 'data_data_main_service';
+
+}
