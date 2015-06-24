@@ -1,5 +1,3 @@
-#import (Config.path +'/Modules/Element/Bundle/Data/Collection/ElementDataMainCollection') = ElementDataMainCollection;
-
 class DataDataMainCollection extends ElementDataMainCollection {
 
 	_entityType = 'Data';
@@ -16,5 +14,3 @@ class DataDataMainCollection extends ElementDataMainCollection {
 	}
 
 }
-
-#export StudentDataMainCollection;
