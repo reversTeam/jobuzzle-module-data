@@ -1,5 +1,3 @@
-#import (Config.path +'/Modules/Element/Bundle/Data/Entity/ElementDataMainEntity') = ElementDataMainEntity;
-
 class DataDataMainEntity extends ElementDataMainEntity {
 
 	_type = 'Data';
@@ -21,6 +19,13 @@ class DataDataMainEntity extends ElementDataMainEntity {
 			this.setUrl(datas.url);
 	}
 
-}
+	search : function (params) {
+		var reg = new RegExp(params, 'i');
 
-#export DataDataMainEntity;
+		return (
+			_super()
+			|| (this.getUrl() != undefined && reg.test(this.getUrl()))
+		);
+	}
+
+}
