@@ -2,7 +2,7 @@
 
 class DataDataTemplateMiniatureView extends ElementDataTemplateMiniatureView {
 
-	render : function () {
+	display : function () {
 		var entity = this.state.entity;
 		return (
 			<div>{entity.getId() +' : '+ entity.getType() +' | Url -> '+ entity.getUrl()}</div>
