@@ -28,4 +28,8 @@ class DataDataMainEntity extends ElementDataMainEntity {
 		);
 	}
 
+	isUrl : function(url) {
+		return (url == this.getUrl())
+	}
+
 }

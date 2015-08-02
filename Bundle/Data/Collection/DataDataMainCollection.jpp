@@ -4,13 +4,21 @@ class DataDataMainCollection extends ElementDataMainCollection {
 	_entityClass = 'data_data_main_entity';
 
 	getProtected : function () {
-		if (this._protected == undefined) {
-			var protected = _super();
-			this._protected = protected.concat(
-				Config.modules.Data.collections.update.protected
+		if (this._protect == undefined) {
+			var parent = _super();
+			this._protect = parent.concat(
+				Config.modules.Data.collections.update.protect
 			);
 		}
-		return this._protected;
+		return this._protect;
+	}
+
+	findByUrl : function (url) {
+		for (i in this._entity) {
+			if (this._entity[i].getUrl() == url)
+				return this._entity[i];
+		}
+		return false;
 	}
 
 }
