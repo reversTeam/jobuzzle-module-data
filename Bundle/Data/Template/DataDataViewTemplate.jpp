@@ -1,5 +1,6 @@
 class DataDataViewTemplate extends ElementDataViewTemplate {
 
+	_serviceName = 'data_data_main_service';
 	_viewClassName = 'DataDataTemplateViewView';
 	_type = 'Data';
 	_route = 'data';

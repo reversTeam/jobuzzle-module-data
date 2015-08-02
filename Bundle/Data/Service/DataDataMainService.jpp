@@ -2,5 +2,12 @@ class DataDataMainService extends ElementDataMainService {
 
 	_type = 'data';
 	_title = 'Datas';
+	_entityType = 'Data';
+
+	getTitleParamsView : function (entity) {
+		if (entity)
+			return { url : entity.getUrl() };
+		return { url : '' };
+	}
 
 }
