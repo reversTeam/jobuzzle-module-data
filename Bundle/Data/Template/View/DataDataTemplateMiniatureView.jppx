@@ -1,5 +1,3 @@
-#import (Config.path +'/Modules/Element/Bundle/Template/View/ElementDataTemplateMiniatureView') = ElementDataTemplateMiniatureView;
-
 class DataDataTemplateMiniatureView extends ElementDataTemplateMiniatureView {
 
 	display : function () {
@@ -10,5 +8,3 @@ class DataDataTemplateMiniatureView extends ElementDataTemplateMiniatureView {
 	}
 
 }
-
-#export DataDataTemplateMiniatureView;

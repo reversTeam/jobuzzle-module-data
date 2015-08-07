@@ -1,5 +1,3 @@
-#import (Config.path +'/Modules/Element/Bundle/Data/Route/ElementDataMainRoute') = ElementDataMainRoute;
-
 class DataDataMainRoute extends ElementDataMainRoute {
 
 	name = 'data';
@@ -12,5 +10,3 @@ class DataDataMainRoute extends ElementDataMainRoute {
 	paramRegex = '[a-z0-9-]+';
 
 }
-
-#export DataDataMainRoute;

@@ -1,5 +1,3 @@
-#import (Config.path +'/Modules/Element/Bundle/Data/Template/ElementDataTimelineTemplate') = ElementDataTimelineTemplate;
-
 class DataDataTimelineTemplate extends ElementDataTimelineTemplate {
 
 	_viewClassName = 'DataDataTemplateTimelineView';
@@ -11,5 +9,3 @@ class DataDataTimelineTemplate extends ElementDataTimelineTemplate {
 	}
 
 }
-
-#export DataDataTimelineTemplate;
