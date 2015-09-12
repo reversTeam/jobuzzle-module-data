@@ -7,7 +7,7 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-08-08 14:30:07
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-12 14:17:21
 **************************************************************/
 
 class DataDataMainCollection extends ElementDataMainCollection {
@@ -25,10 +25,10 @@ class DataDataMainCollection extends ElementDataMainCollection {
 		return this._protect;
 	}
 
-	findByUrl : function (url) {
-		for (i in this._entity) {
-			if (this._entity[i].getUrl() == url)
-				return this._entity[i];
+	public findByUrl : function (url) {
+		for (i in this['_entity']) {
+			if (this['_entity'][i]['getUrl']() == url)
+				return this['_entity'][i];
 		}
 		return false;
 	}
