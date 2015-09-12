@@ -7,14 +7,14 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-08-08 14:30:07
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-11 21:46:01
 **************************************************************/
 
 class DataDataTimelineTemplate extends ElementDataTimelineTemplate {
 
 	_viewClassName = 'DataDataTemplateTimelineView';
 
-	onListen : function () {
+	public onListen : function () {
 		var dispatcher = _super();
 
 		return dispatcher;

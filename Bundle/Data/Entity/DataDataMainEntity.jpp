@@ -7,28 +7,26 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-08-08 14:30:07
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-12 01:07:06
 **************************************************************/
 
 class DataDataMainEntity extends ElementDataMainEntity {
 
-	_type = 'Data';
-	_templateTimeline = 'data_data_timeline_template';
-	_templateMiniature = 'data_data_miniature_template';
-
-	#default get, set for _url;
+	public _type = 'Data';
+	public _templateTimeline = 'data_data_timeline_template';
+	public _templateMiniature = 'data_data_miniature_template';
 
 	initialize : function () {
 		_super();
 
-		this._url = undefined;
+		this['_url'] = undefined;
 	}
 
 	hydrate : function (datas) {
 		_super(datas);
 
-		if (datas.url)
-			this.setUrl(datas.url);
+		if (datas['url'])
+			this.setUrl(datas['url']);
 	}
 
 	search : function (params) {
@@ -40,8 +38,18 @@ class DataDataMainEntity extends ElementDataMainEntity {
 		);
 	}
 
-	isUrl : function(url) {
+	public isUrl : function(url) {
 		return (url == this.getUrl())
+	}
+
+	public getUrl : function () {
+		return this['_url'];
+	}
+
+	public setUrl : function (url) {
+		this['_url'] = url;
+
+		return this;
 	}
 
 }
