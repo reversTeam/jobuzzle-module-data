@@ -1,0 +1,39 @@
+/**************************************************************
+*     ####         #                               #          * Jobuzzle - Copyright All rights reserved
+*     ####         #                               #          *
+*       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
+*       ## #     # #     # #     #      #       #  # #     #  *
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-09-15 23:58:38
+*       ## #     # #     # #     #    #       #    # #     #  *
+*       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
+*  ####### #     # #     # #     #  #       #      # #        *
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-16 00:03:12
+**************************************************************/
+
+class DataDataFieldsetForm extends ElementDataFieldsetForm {
+
+	public _formName = 'Data';
+	public _createFormName = 'data_data_create_form';
+	public _searchFormName = 'data_data_search_form';
+	public _editFormName = 'data_data_edit_form';
+	public _urlDisplay = undefined;
+
+	public getElementsDisplay : function () {
+		var elementsDisplay = _super();
+
+		elementsDisplay['url'] = this.getUrlDisplay();
+
+		return elementsDisplay;
+	}
+
+	public getUrlDisplay : function () {
+		if (!this._urlDisplay) {
+			this._urlDisplay = {
+				type : 'Text',
+				label : 'Url'
+			};
+		}
+		return this._urlDisplay;
+	}
+
+}
