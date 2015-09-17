@@ -7,7 +7,7 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-08-08 14:30:07
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-16 00:04:13
 **************************************************************/
 
 class DataDataMainService extends ElementDataMainService {
@@ -15,6 +15,7 @@ class DataDataMainService extends ElementDataMainService {
 	_type = 'data';
 	_title = 'Datas';
 	_entityType = 'Data';
+	_fieldsetName = 'data_data_fieldset_form';
 
 	getTitleParamsView : function (entity) {
 		if (entity)

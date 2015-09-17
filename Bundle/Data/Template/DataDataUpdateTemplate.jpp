@@ -7,13 +7,14 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-08-08 14:30:07
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-16 00:33:08
 **************************************************************/
 
 class DataDataUpdateTemplate extends ElementDataUpdateTemplate {
 
 	_viewClassName = 'DataDataTemplateUpdateView';
-	_type = 'Data';
+	_serviceName = 'data_data_main_service';
 	_route = 'data';
+	public _type = 'Data';
 
 }

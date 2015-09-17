@@ -3,18 +3,17 @@
 *     ####         #                               #          *
 *       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
 *       ## #     # #     # #     #      #       #  # #     #  *
-*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-08-08 11:12:48
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-09-15 23:58:25
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-17 15:45:10
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-17 15:34:06
 **************************************************************/
 
-class DataDataCreateTemplate extends ElementDataCreateTemplate {
+class DataDataEditForm extends ElementDataEditForm {
 
-	_viewClassName = 'DataDataTemplateCreateView';
-	_serviceName = 'data_data_main_service';
-	_type = 'Data';
-	_route = 'data';
+	public _title = 'Edit data';
+	public _url = '/data/view/update';
+	public _paramNameRoute = 'data_url';
 
 }
