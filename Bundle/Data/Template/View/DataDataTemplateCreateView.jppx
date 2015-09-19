@@ -7,16 +7,12 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-11 21:26:06
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-19 13:05:05
 **************************************************************/
 
 class DataDataTemplateCreateView extends ElementDataTemplateCreateView {
 
 	_class = 'data';
 	_elementType = 'Data';
-
-	public display : function () {
-		return <div>Create Data</div>;
-	}
 
 }

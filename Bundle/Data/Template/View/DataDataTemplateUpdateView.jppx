@@ -7,16 +7,12 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-11 21:26:31
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-19 12:57:11
 **************************************************************/
 
 class DataDataTemplateUpdateView extends ElementDataTemplateUpdateView {
 
 	_class = 'data';
 	_elementType = 'Data';
-
-	public display : function () {
-		return <div>Update Data</div>;
-	}
 
 }
