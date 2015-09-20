@@ -7,7 +7,7 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-19 12:33:17
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-20 11:35:47
 **************************************************************/
 
 class DataDataFieldsetForm extends ElementDataFieldsetForm {
@@ -31,7 +31,7 @@ class DataDataFieldsetForm extends ElementDataFieldsetForm {
 		if (!this._urlDisplay) {
 			this['_urlDisplay'] = {};
 			this['_urlDisplay']['type'] = 'Text';
-			this['_urlDisplay']['label'] = 'Url';
+			this['_urlDisplay']['label'] = 'form.input.data.url';
 		}
 		return this._urlDisplay;
 	}

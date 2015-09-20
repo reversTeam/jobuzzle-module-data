@@ -7,12 +7,12 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-17 15:34:06
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-20 12:08:21
 **************************************************************/
 
 class DataDataEditForm extends ElementDataEditForm {
 
-	public _title = 'Edit data';
+	public _title = 'form.title.data.edit';
 	public _url = '/data/view/update';
 	public _paramNameRoute = 'data_url';
 
