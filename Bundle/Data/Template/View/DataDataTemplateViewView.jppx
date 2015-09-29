@@ -7,7 +7,7 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-11 21:26:35
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-29 10:10:18
 **************************************************************/
 
 class DataDataTemplateViewView extends ElementDataTemplateViewView {
@@ -15,8 +15,8 @@ class DataDataTemplateViewView extends ElementDataTemplateViewView {
 	_class = 'data';
 	_elementType = 'Data';
 
-	public display : function () {
-		return <div>View Data</div>;
-	}
+	// public display : function () {
+	// 	return <div>View Data</div>;
+	// }
 
 }

@@ -7,13 +7,13 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-11 21:26:29
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-20 18:32:01
 **************************************************************/
 
 class DataDataTemplateTimelineView extends ElementDataTemplateTimelineView {
 
 	public display : function () {
-		var entity = this.state.entity;
+		var entity = this.state['entity'];
 		return (
 			<div>{entity.getId() +' : '+ entity.getType() +' | Url -> '+ entity.getUrl()}</div>
 		);
