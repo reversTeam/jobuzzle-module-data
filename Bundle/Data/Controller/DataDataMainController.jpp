@@ -7,12 +7,13 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-08-08 14:30:07
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-29 10:27:15
 **************************************************************/
 
 class DataDataMainController extends ElementDataMainController {
 
 	_serviceName = 'data_data_main_service';
 	_entityType = 'Data';
+	_url = 'data';
 
 }
