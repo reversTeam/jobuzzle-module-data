@@ -7,12 +7,14 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-11 21:45:57
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-11-09 13:24:17
 **************************************************************/
 
 class DataDataMiniatureTemplate extends ElementDataMiniatureTemplate {
 
 	_viewClassName = 'DataDataTemplateMiniatureView';
+
+	public _type = 'Data';
 
 	public onListen : function () {
 		var dispatcher = _super();
