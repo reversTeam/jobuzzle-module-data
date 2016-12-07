@@ -7,13 +7,13 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-08-08 14:30:07
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-11-21 15:28:51
 **************************************************************/
 
 class DataDataDeleteTemplate extends ElementDataDeleteTemplate {
 
-	_viewClassName = 'DataDataTemplateDeleteView';
-	_type = 'Data';
-	_route = 'data';
+	public _viewClassName = 'DataDataTemplateDeleteView';
+	public _type = 'Data';
+	public _serviceName = 'data_data_main_service';
 
 }
